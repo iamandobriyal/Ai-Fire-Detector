@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import socketIOClient from "socket.io-client";
 
-const ENDPOINT = "https://ai.hpled.com/api";
+const ENDPOINT = "https://ai.hpled.in/api";
 
 const CameraComponent = () => {
   const [socket, setSocket] = useState(null);
