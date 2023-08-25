@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import socketIOClient from "socket.io-client";
 
-const ENDPOINT = "http://15.206.35.202:4000";
+const ENDPOINT = "https://15.206.35.202:4000";
 
 const CameraComponent = () => {
   const [socket, setSocket] = useState(null);
